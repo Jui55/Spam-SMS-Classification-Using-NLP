@@ -37,10 +37,9 @@ Histograms are used to show the distribution of message lengths, helping underst
 ![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213608.png)
 
 ### WordCloud for spam and ham messages
-![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213531.png)
-
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213631.png)
 ### Histogram for message lengths
-![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%202135307.png)
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213507.png)
 
 
 

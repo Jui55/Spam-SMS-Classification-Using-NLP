@@ -8,8 +8,8 @@ https://www.kaggle.com/datasets/mariumfaheem666/spam-sms-classification-using-nl
 ## Table of Contents
     Data Overview
     Data Visualization
-    Preprocessing and Feature Engineering
-    Modeling and Analysis
+    Data Preprocessing
+    Model Training and Evaluation
     Performance Evaluation
     Results
     Future Work
@@ -42,15 +42,30 @@ Histograms are used to show the distribution of message lengths, helping underst
 ![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213507.png)
 
 
+### Data Preprocessing
+
+#### Text Vectorization: 
+The TfidfVectorizer (Term Frequency-Inverse Document Frequency) is used to transform text data into numerical form. This process helps convert SMS messages into features usable by machine learning models.
+#### Encoding Target Variable: 
+The target column is mapped to numerical values for binary classification.
 
 ### 4.Model Training and Evaluation
 Three different machine learning models are implemented, trained, and evaluated:
 
-      1.Naive Bayes
-      2.Logistic Regression
-      3.Support Vector Machine (SVM)
-Each model is evaluated on accuracy, and detailed reports are generated with classification metrics and confusion matrices.
+    1.Naive Bayes
+    2.Logistic Regression
+    3.Support Vector Machine (SVM)
+#### Performance Evaluation
+The models are evaluated using standard metrics, including:
 
+    Accuracy: Proportion of correct predictions.
+    Precision: Correctness of spam predictions.
+    Recall: Completeness of spam prediction.
+    F1-Score: Harmonic mean of precision and recall.
+    Confusion Matrix: Visualization of true positives, true negatives, false positives, and false negatives.
+
+
+   
 ### 5.Model Comparison and Best Model Selection
 A comparison of model performances is printed, and the best model is selected based on accuracy.After comparing the performance of each model, Support Vector Machine was identified as the best model with an accuracy of 98%. This model demonstrated the highest accuracy among the three evaluated models (Naive Bayes, Logistic Regression, and Support Vector Machine), making it the optimal choice for classifying SMS messages as spam or ham.
 
@@ -68,4 +83,4 @@ The following libraries are used in this project:
   For visualizing frequently occurring words in spam and ham messages.
 
 ## Conclusion
-This notebook provides a full pipeline to classify SMS messages as spam or ham using popular machine learning models. Logistic Regression, Naive Bayes, and Support Vector Machine models are compared, with the best model identified for final use.
+This project provides a full pipeline to classify SMS messages as spam or ham using popular machine learning models. Logistic Regression, Naive Bayes, and Support Vector Machine models are compared, with the best model identified for final use.

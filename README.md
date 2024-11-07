@@ -38,7 +38,7 @@ A comparison of model performances is printed, and the best model is selected ba
 ## Requirements
 The following libraries are used in this project:
 
-  #### pandas, #### numpy, #### matplotlib, #### seaborn:
+  #### pandas, numpy, matplotlib, seaborn:
   For data manipulation and visualization.
   #### sklearn:
   For model implementation, TF-IDF vectorization, and evaluation metrics.

@@ -1,11 +1,16 @@
-# Spam-SMS-Classification-Using-NLP
-
-This project notebook, SpamFinal.ipynb, demonstrates a machine learning pipeline for detecting spam messages in SMS data. It includes data loading, preprocessing, exploratory data analysis (EDA), feature extraction, model training, and evaluation. The main objective is to classify SMS messages as either spam or ham (non-spam) using various machine learning algorithms and compare their performance.
-
+# Spam Detection Project
 ## Project Overview
+This project is dedicated to building a model that identifies spam messages within SMS text data. The goal is to develop a reliable classification tool that can filter out spam from legitimate messages using machine learning models.
 
-### 1.Data Loading and Exploration
-The dataset (Spam_SMS.csv) is loaded and examined for insights. This includes checking for null values, displaying basic statistics, and analyzing the class distribution of spam vs. ham messages.
+## Table of Contents
+    Data Overview
+    Installation
+    Preprocessing and Feature Engineering
+    Modeling and Analysis
+    Performance Evaluation
+    Results
+    Future Work
+
 
 ### 2.Data Visualization
   #### Class Distribution: 

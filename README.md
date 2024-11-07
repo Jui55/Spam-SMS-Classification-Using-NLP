@@ -29,10 +29,17 @@ Word clouds are generated for both spam and ham messages to observe frequently u
 #### Message Length Analysis: 
 Histograms are used to show the distribution of message lengths, helping understand length patterns in spam and ham messages.ry classification.
 
-
+### Bar chart for class distribution
 ![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213535.png)
 
+### Pie chart for class distribution
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213608.png)
 
+### WordCloud for spam and ham messages
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213535.png)
+
+### Histogram for message lengths
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%202135307.png)
 
 
 

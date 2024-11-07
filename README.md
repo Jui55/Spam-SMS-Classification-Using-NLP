@@ -7,7 +7,6 @@ https://www.kaggle.com/datasets/mariumfaheem666/spam-sms-classification-using-nl
 
 ## Table of Contents
     Data Overview
-    Installation
     Preprocessing and Feature Engineering
     Modeling and Analysis
     Performance Evaluation
@@ -15,19 +14,27 @@ https://www.kaggle.com/datasets/mariumfaheem666/spam-sms-classification-using-nl
     Future Work
 
 
-### 2.Data Visualization
-  #### Class Distribution: 
-  Visualized using bar charts and pie charts to illustrate the balance between spam and ham messages.
-  #### Text Analysis: 
-  Word clouds are generated for both spam and ham messages to observe frequently used terms within each class.
-  #### Message Length Analysis:  
-  Histograms are used to show the distribution of message lengths, helping understand length patterns in spam and ham messages.
-  
-### 3.Data Preprocessing
-  #### Text Vectorization: 
-  The TfidfVectorizer (Term Frequency-Inverse Document Frequency) is used to transform text data into numerical form. This process helps convert SMS messages into features usable by        machine learning models.
-  #### Encoding Target Variable:
-  The target column is mapped to numerical values for binary classification.
+### Data Overview
+The dataset includes SMS messages with labels that classify each message as either Spam or Not Spam. This classification allows us to train a model that can recognize patterns in spam content. Key features of the dataset:
+
+    Text: The SMS content, which requires text processing for analysis.
+    Label: Binary indicator (Spam or Not Spam) used as the target for model training.
+      
+### Data Visualization
+
+#### Class Distribution:
+Visualized using bar charts and pie charts to illustrate the balance between spam and ham messages.
+#### Text Analysis:
+Word clouds are generated for both spam and ham messages to observe frequently used terms within each class.
+#### Message Length Analysis: 
+Histograms are used to show the distribution of message lengths, helping understand length patterns in spam and ham messages.ry classification.
+
+
+![image_alt]()
+
+
+
+
 
 ### 4.Model Training and Evaluation
 Three different machine learning models are implemented, trained, and evaluated:

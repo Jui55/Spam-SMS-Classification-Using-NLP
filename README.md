@@ -7,6 +7,7 @@ https://www.kaggle.com/datasets/mariumfaheem666/spam-sms-classification-using-nl
 
 ## Table of Contents
     Data Overview
+    Data Visualization
     Preprocessing and Feature Engineering
     Modeling and Analysis
     Performance Evaluation
@@ -36,7 +37,7 @@ Histograms are used to show the distribution of message lengths, helping underst
 ![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213608.png)
 
 ### WordCloud for spam and ham messages
-![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213535.png)
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20213531.png)
 
 ### Histogram for message lengths
 ![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%202135307.png)

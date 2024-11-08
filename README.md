@@ -65,10 +65,26 @@ The models are evaluated using standard metrics, including:
     F1-Score: Harmonic mean of precision and recall.
     Confusion Matrix: Visualization of true positives, true negatives, false positives, and false negatives.
 
+### Naive Bayes Classification Report
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20223307.png)
+### Confusion matrix for Naive Bayes
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20223410.png)
+### Logistic Regression Classification Report
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20223451.png)
+### Confusion matrix for Logistic Regression
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20223527.png)
+### Support Vector Machine Classification Report
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-08%20202700.png)
+### Confusion matrix for Support Vector Machine
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20223755.png)
+
 
    
 ### 5.Model Comparison and Best Model Selection
 A comparison of model performances is printed, and the best model is selected based on accuracy.After comparing the performance of each model, Support Vector Machine was identified as the best model with an accuracy of 98%. This model demonstrated the highest accuracy among the three evaluated models (Naive Bayes, Logistic Regression, and Support Vector Machine), making it the optimal choice for classifying SMS messages as spam or ham.
+
+### Best model based on accuracy
+![image_alt](https://github.com/Jui55/Spam-SMS-Classification-Using-NLP/blob/main/Screenshot%202024-11-07%20224040.png)
 
 ## Files
       1.Spam_SMS.csv: The dataset containing SMS messages and their spam/ham labels.
